@@ -1,20 +1,21 @@
 '''
-Auther:Febin Noble
-Date:8-10-2024
-Program to create a calculator
-Version:1.0
-'''
-num1=int(input("Enter num1 : "))
-num2=int(input("Enter num2 : "))
-num3=int(input("Enter num3 : "))
-sum= num1+num2
-print(f"The sum of num1 and num2 is : {sum}")
-difference = num2-num1
-print(f"The difference when num2 is subtracted from num1 is: {difference}")
-product=num1*num2
-print(f"The product of num1 and num2 is: {product}")
-remainder=num1%num2
-print(f"The remainder when num1 is divided by num2 is {remainder}")
-result = (num1 + num2) * num3 / 2
-print(f"The result of (num1 + num2) * num3 / 2 is: {result}")
+Auther : Febin Noble
 
+'''
+operator = input("Enter an operator (+ - * /) :")
+num1 = float(input("Enter the 1st number :"))
+num2 =float(input("Enter the 2nd number :"))
+if operator == "+":
+    result1 = num1 + num2
+    print(round(result1 , 3))
+elif operator == "-":
+    result2 = num1 - num2
+    print(round(result2 , 3))
+elif operator == "*":
+    result3 = num1 * num2
+    print(round(result3 , 3))
+elif operator =="/":
+    result4  = num1 / num2
+    print(round(result4 , 3))
+else :
+    print(f"The {operator} is not a valid operator")
