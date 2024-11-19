@@ -2,7 +2,7 @@
 Python program to separate even numbers from odd numbers
 Auther:Febin Noble
 Version:1.0
-Date: 19-11-2004
+Date: 19-11-2024
 """
 
 
